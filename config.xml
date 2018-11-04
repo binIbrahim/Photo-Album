@@ -3,7 +3,7 @@
 <widget xmlns 		= "https://www.w3.org/ns/widgets"
 		xmlns:gap	= "https://phonegap.com/ns/1.0"
 		id			= "com.kompanion"
-		version		= "1.1.0">
+		version		= "1.1.2">
 
 	<name> Photo Album </name>
 
@@ -17,6 +17,7 @@
 
 	
 	<content src="index.html" />
+	<preference name="orientation" value="portrait"/>
     <preference name="DisallowOverscroll" value="true" />
     
     
@@ -42,8 +43,7 @@
 
 	
 	<preference name="permissions" value="none" />
-	<preference name="Splashscreen" value="screen" />
-	<preference name="SplashScreenDelay" value="5000" />
+	<preference name="Splashscreen" value="screen" />	
   	<preference name="fullscreen" value="true" />
   	<preference name="KeepRunning" value="false"/>
 
